@@ -1,0 +1,37 @@
+h1{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+p {
+    margin-top: 0px;
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 1200px;
+}
+.header{
+    max-height: 10vh;
+}
+
+#legend {
+    position: absolute;
+    justify-content: right;
+    justify-items: right;
+    right: 0;
+}
+#tooltip{
+    visibility: hidden;
+    position: absolute;
+    border: 1px, solid black;
+    height: auto;
+    width: auto;
+    background-color: rgb(16, 105, 105);
+    border-radius: 5px;
+    color: white;
+    top: 15%;
+}
